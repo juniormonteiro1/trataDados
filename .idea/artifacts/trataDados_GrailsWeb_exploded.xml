@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="trataDados:GrailsWeb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/trataDados_GrailsWeb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="trataDados/web/GrailsWeb" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="trataDados/web/GrailsWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="Grails User Library (trataDados)" module-name="trataDados" />
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="project" name="Spring-4.3.0.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
